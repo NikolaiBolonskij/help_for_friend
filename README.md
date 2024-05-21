@@ -1,7 +1,8 @@
 # Основные команды Git
  
 
-```git init
+```
+git init
 ```
 
 Создать новый репозиторий
@@ -44,21 +45,24 @@ git commit -m "Комментарий к коммиту"
 
 ----
 
-```git remote add origin https://github.com/YandexPracticum/first-project.git
+```
+git remote add origin https://github.com/YandexPracticum/first-project.git
 ```
 
 (от англ. remote, «удалённый» + add, «добавить») — привяжи локальный репозиторий к удалённому с [URL](https://github.com/YandexPracticum/first-project.git)
 
 ----
 
-```git remote -v
+```
+git remote -v
 ```
 
  (от англ. verbose, «подробный») — проверь, что репозитории действительно связались;
 
 ----
 
-```git push -u origin main
+```
+git push -u origin main
 ```
 
  (от англ. push, «толкать») — в первый раз загрузи все коммиты из локального репозитория в удалённый с названием origin.
@@ -70,7 +74,8 @@ git commit -m "Комментарий к коммиту"
 
 ----
 
-```git push
+```
+git push
 ```
 
  (от англ. push, «толкать») — загрузи коммиты в удалённый репозиторий после того, как он был привязан с помощью флага -u.
@@ -84,7 +89,8 @@ git commit -m "Комментарий к коммиту"
 ###Клонирование
 
 ----
-```git clone git@github.com:TheGreatOwner/the-great-project.git
+```
+git clone git@github.com:TheGreatOwner/the-great-project.git
 ```
 (от англ. clone, «клон», «копия») — склонируй репозиторий с URL (the-great-project.git) из аккаунта TheGreatOwner на мой локальный компьютер.
 
