@@ -26,12 +26,14 @@ git status
 
 ----
 
-``` git add filename.txt
+```
+git add filename.txt
 ```
 
 Добавить файлы в индекс
 
-``` git commit -m "Комментарий к коммиту"
+```
+git commit -m "Комментарий к коммиту"
 ```
 
 Добавляет новый коммит
